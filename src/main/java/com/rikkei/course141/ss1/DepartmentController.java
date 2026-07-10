@@ -1,16 +1,15 @@
 package com.rikkei.course141.ss1;
 
 import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping("/api/v1/departments")
+@RequiredArgsConstructor
 public class DepartmentController {
-    @Autowired
-    private DepartmentService departmentService;
+    private final DepartmentService departmentService;
 
     @PostMapping
     public ResponseEntity<ApiResponse<Department>> create(@Valid @RequestBody DepartmentCreateDTO dto) {
