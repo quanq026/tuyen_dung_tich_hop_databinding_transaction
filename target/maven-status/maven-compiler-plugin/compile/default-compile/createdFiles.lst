@@ -1,6 +1,7 @@
 com\rikkei\course141\ss1\ApiResponse.class
 com\rikkei\course141\ss1\Employee.class
 com\rikkei\course141\ss1\ResourceNotFoundException.class
+com\rikkei\course141\ss1\ErrorResponse$ErrorResponseBuilder.class
 com\rikkei\course141\ss1\CandidateController.class
 com\rikkei\course141\ss1\Employee$EmployeeBuilder.class
 com\rikkei\course141\ss1\EmployeeService.class
@@ -13,6 +14,7 @@ com\rikkei\course141\ss1\DepartmentService.class
 com\rikkei\course141\ss1\ApiResponse$ApiResponseBuilder.class
 com\rikkei\course141\ss1\Department.class
 com\rikkei\course141\ss1\Session09SS1Application.class
+com\rikkei\course141\ss1\ErrorResponse.class
 com\rikkei\course141\ss1\GlobalExceptionHandler.class
 com\rikkei\course141\ss1\CandidateApplyDTO.class
 com\rikkei\course141\ss1\CandidateRepository.class
